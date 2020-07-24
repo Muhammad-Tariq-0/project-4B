@@ -39,8 +39,7 @@ function App() {
         The size of the U.S. economy was at $20.58 trillion in 2018 in nominal terms and is expected to reach $22.32 trillion in 2020. The U.S. is often dubbed as an economic superpower. </p>
        </div>
       <div className="picbox1" data-aos="slide-right">
-        <img src={america} width="600" height="300" alt="Image Loading..."/>
-         </div>
+        <img src={america} width="600" height="300" alt={america}  /> </div>
 
 
 <br/><br/><br/><br/><br/><br/><br/>
@@ -52,7 +51,7 @@ function App() {
       China has experienced exponential growth over the past few decades, breaking the barriers of a centrally-planned closed economy to evolve into a manufacturing and exporting hub of the world. China is often referred to as the "world's factory," given its huge manufacturing and export base.</p>
        </div>
       <div className="picbox2" data-aos="slide-left">
-        <img src={china} width="600" height="300" alt="Image Loading..."/>
+        <img src={china} width="600" height="300" alt={china}/>
          </div>
 
 
@@ -68,7 +67,7 @@ function App() {
 Japan is the third-largest economy in the world, with its GDP crossing the $5 trillion mark in 2019.  </p>
        </div>
       <div className="picbox1" data-aos="slide-right">
-        <img src={japan} width="600" height="300" alt="Image Loading..."/>
+        <img src={japan} width="600" height="300" alt={japan}/>
          </div>
 
      
@@ -81,7 +80,7 @@ Japan is the third-largest economy in the world, with its GDP crossing the $5 tr
       Germany is not just Europe's largest economy but also the strongest. On the global scale, it is the fourth-largest economy in terms of nominal GDP, with a $4 trillion GDP. </p>
        </div>
       <div className="picbox2" data-aos="slide-left">
-        <img src={germany} width="600" height="300" alt="Image Loading..."/>
+        <img src={germany} width="600" height="300" alt={germany}/>
          </div>
  
   <br/><br/><br/><br/><br/><br/><br/>
@@ -96,7 +95,7 @@ Japan is the third-largest economy in the world, with its GDP crossing the $5 tr
 India is the fastest-growing trillion-dollar economy in the world and the fifth-largest overall, with a nominal GDP of $2.94 trillion. India has become the fifth-largest economy in 2019, overtaking the United Kingdom and France.  </p>
        </div>
       <div className="picbox1" data-aos="slide-right">
-        <img src={india} width="600" height="300"  alt="Image Loading..."/>
+        <img src={india} width="600" height="300" alt={india}  />
          </div>
 
 
@@ -109,7 +108,7 @@ India is the fastest-growing trillion-dollar economy in the world and the fifth-
 The United Kingdom, with a $2.83 trillion GDP is the sixth largest economy in the world. When compared in terms of GDP purchasing-power-parity, U.K. slips to the ninth spot with a GDP-PPP of $3.04 trillion.</p>
        </div>
       <div className="picbox2" data-aos="slide-left">
-        <img src={uk} width="600" height="300" alt="Image Loading..."/>
+        <img src={uk} width="600" height="300" alt={uk} />
          </div>
 
          <br/><br/><br/><br/><br/><br/><br/>
@@ -124,7 +123,7 @@ The United Kingdom, with a $2.83 trillion GDP is the sixth largest economy in th
 France, the most-visited country in the world, is the third-largest economy of Europe and the sixth-largest in the world, with a nominal GDP of $2.78 trillion. Its GDP in terms of purchasing power parity is around $2.96 trillion. </p>
        </div>
       <div className="picbox1" data-aos="slide-right">
-        <img src={france} width="600" height="300" alt="Image Loading..."/>
+        <img src={france} width="600" height="300" alt={france}/>
          </div>
 
    <br/><br/><br/><br/><br/><br/><br/>
@@ -136,7 +135,7 @@ France, the most-visited country in the world, is the third-largest economy of E
 With a nominal GDP of $2.07 trillion, Italy is the world’s eighth-largest economy. Its economy is expected to expand to $2.26 trillion by 2023. In terms of GDP (PPP), its economy is worth $2.40 trillion</p>
        </div>
       <div className="picbox2" data-aos="slide-left">
-        <img src={italy} width="600" height="300" alt="Image Loading..."/>
+        <img src={italy} width="600" height="300" alt={italy}/>
          </div>
 
          <br/><br/><br/><br/><br/><br/><br/>
@@ -151,7 +150,7 @@ With a nominal GDP of $2.07 trillion, Italy is the world’s eighth-largest econ
 Brazil is the largest and most populous nation in Latin America. With a nominal GDP of $1.87 trillion, Brazil is the ninth-largest economy in the world. </p>
        </div>
       <div className="picbox1" data-aos="slide-right">
-        <img src={brazil} width="600" height="300"  alt="Image Loading..."/>
+        <img src={brazil} width="600" height="300" alt={brazil}/>
          </div>
 
          <br/><br/><br/><br/><br/><br/><br/>
@@ -163,7 +162,7 @@ Brazil is the largest and most populous nation in Latin America. With a nominal 
 Canada displaced Russia to take the 10th spot in 2015 and has retained its position since then. Canada's nominal GDP is currently at $1.71 trillion and is expected to touch $1.74 trillion in 2019 and $2.13 trillion by 2023. </p>
        </div>
       <div className="picbox2" data-aos="slide-left">
-        <img src={canada} width="600" height="300"  alt="Image Loading..."/>
+        <img src={canada} width="600" height="300" alt={canada}/>
          </div>
     </div>
     
