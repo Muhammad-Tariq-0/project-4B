@@ -12,6 +12,7 @@ import india from "./pics/india.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./App.css"
+import Navbar from './Navbar';
 
 function App() {
   
@@ -22,14 +23,7 @@ function App() {
 
   return (
     <div>
-    <div className="bar">
-      <center><h1 data-aos="fade-down" ><font color="green">Economic Powers of world</font></h1></center>
-      </div>
-<div className="side">
-</div>
-<div className="side1">
-</div>
-      <br/> <br/> <br/> 
+      <Navbar/>
       <center> <h1 data-aos="zoom-in" >The United States </h1></center>
       <br/> 
       <div className="textside1" data-aos="slide-left"> 
@@ -164,7 +158,9 @@ Canada displaced Russia to take the 10th spot in 2015 and has retained its posit
       <div className="picbox2" data-aos="slide-left">
         <img src={canada} width="600" height="300" alt={canada}/>
          </div>
-    </div>
+
+      
+</div>
     
    );
  }
